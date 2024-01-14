@@ -1,0 +1,235 @@
+@media only screen and (min-width: 1025px){
+  body{
+  background-image: url("img/loginbg.jpg");
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin:0;
+  padding: 0;
+ height: 100vh;
+}
+.divcenter .box{
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.555);
+  border-radius: 10px;
+  width: 40%;
+  margin: 10px;
+}
+.heading{
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.divcenter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.form-group label {
+  font-size: 13px;
+  color: rgb(255, 255, 255);
+  margin-top: 10px;
+}
+.form-group input, .form-group select,.form-group textarea {
+    color: rgb(255, 255, 255);
+    display: block;
+    border-radius: 10px;
+    margin: 0 10px;
+    background-color: rgba(148, 229, 248, 0.505);
+    width: 90%;
+  
+  }
+
+
+button{
+ color: rgb(255, 255, 255);
+ background-color: rgba(224, 242, 88, 0.6);
+ font-size: 13px;
+ text-align: center;
+ border: none;
+ margin: 10px 10px ;
+ padding: 10px 15px;
+ font-weight: 600;
+}
+button:hover{
+  background-color: rgba(224, 242, 88, 0.9);
+  color: black;
+}
+a{
+  font-size: 10px;
+  color: rgb(255, 255, 255);
+  align-items: center;
+ justify-content: center;
+ text-align: center;
+  float: right;
+  padding: 20px;
+}
+a:hover{
+  color: bisque;
+  text-decoration: none;
+}
+ }
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  body {
+      background-image: url("img/loginbg.jpg");
+      background-position: center; 
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin:0;
+      padding: 0;
+      
+    }
+    .divcenter .box{
+      padding: 10px;
+      background-color: rgba(255, 255, 255, 0.255);
+      border-radius: 10px;
+      width: 50%;
+      margin: 10px;
+    }
+  .box{
+    padding: 10px;
+    background-color: rgba(149, 165, 165, 0.102);
+    border-radius: 10px;
+    width: 80%;
+  }
+  .heading{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+  text-align: center;
+  }
+  .divcenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  form{
+    width: 70%;
+   
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+      }
+      .form-group label {
+        font-size: 13px;
+        color: rgb(255, 255, 255);
+        margin-top: 10px;
+      }
+      .form-group input,.form-group textarea {
+        padding-right:0 ;
+      }   
+      
+button{
+  color: rgb(255, 255, 255);
+  background-color: rgba(224, 242, 88, 0.6);
+  font-size: 13px;
+  text-align: center;
+  border: none;
+  margin: 10px 10px ;
+  padding: 10px 15px;
+  font-weight: 600;
+ }
+ button:hover{
+   background-color: rgba(224, 242, 88, 0.9);
+   color: black;
+ }
+ a{
+   font-size: 10px;
+   color: rgb(255, 255, 255);
+   align-items: center;
+  justify-content: center;
+  text-align: center;
+   float: right;
+   padding: 20px;
+   ;
+ }
+ a:hover{
+   color: bisque;
+   text-decoration: none;
+ } 
+
+    }
+
+    @media only screen and (min-width: 200px) and (max-width: 600px) {  
+      body{
+        background-image: url("img/loginbg.jpg");
+        background-position: center; 
+        background-repeat: repeat;
+        background-size: cover;
+        margin:0;}
+      .box{
+    background-color: rgba(21, 167, 177, 0.413);
+    border-radius: 10px;
+  }
+  .heading{
+    font-size: 17px;
+    text-align: center;
+    color: white;
+  }
+  .divcenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  form{
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .form-group label {
+    font-size: 14px;
+    color: aliceblue;
+    margin-top: 10px;
+    display: block;
+  }
+  .form-group input, .form-group textarea {
+    margin: 5px;
+    display: block;
+    border-radius:10px;
+}
+
+.divcenter .box{
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.555);
+  border-radius: 10px;
+  width: 90%;
+  margin: 10px;
+}
+
+button{
+  color: rgb(255, 255, 255);
+  background-color: rgba(224, 242, 88, 0.6);
+  font-size: 13px;
+  align-items: center;
+  text-align: center;
+  border: none;
+  margin: 10px 35% ;
+  padding: 10px 20px;
+  font-weight: 600;
+  
+  display: flex;
+ }
+ button:hover{
+   background-color: rgba(224, 242, 88, 0.9);
+   color: black;
+ }
+ a{
+   font-size: 10px;
+   color: rgb(255, 255, 255);
+   align-items: center;
+  justify-content: center;
+  text-align: center;
+
+   padding: 10px 20px;
+   display: block;
+ }
+ a:hover{
+   color: rgb(112, 141, 56);
+   text-decoration: none;
+   color: bisque;
+ }
+}
